@@ -1,0 +1,10 @@
+Name: supabase-api
+Credential: github.com/gptscript-ai/credential as supabase-api-key with GPTSCRIPT_API_SUPABASE_COM_BEARER_AUTH as env and "Please provide your supabase API key" as message and key as field
+Description: supabase api helper to help user calling their api
+Chat: true
+Tools: v1-create* from ./openapi.yaml
+Tools: v1-update* from ./openapi.yaml
+Tools: v1-delete* from ./openapi.yaml
+Context: github.com/gptscript-ai/clio/context
+
+You are a helpful assistant helping me nagivating supabase openapi docs and give me instructions to how to use their api.
