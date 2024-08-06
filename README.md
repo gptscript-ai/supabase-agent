@@ -10,8 +10,8 @@ Clio is a friendly assistant designed to help you with DevOps-related tasks usin
 
 Before you begin, ensure you have the following:
 
-- Supabase API key
-- Supabase CLI installed
+- [Supabase API key](https://supabase.com/docs/reference/api/introduction)
+- [Supabase CLI installed](https://supabase.com/docs/guides/cli/getting-started)
 
 ## Setup
 
@@ -23,7 +23,7 @@ Before you begin, ensure you have the following:
    ```
 
 2. **Set Up Environment Variables:**
-   You need to set up your [Supabase API key](https://supabase.com/docs/reference/api/introduction) as an environment variable.
+   You need to set up your Supabase API key as an environment variable.
    ```bash
    export GPTSCRIPT_API_SUPABASE_COM_BEARER_AUTH="your-supabase-api-key"
    ```
